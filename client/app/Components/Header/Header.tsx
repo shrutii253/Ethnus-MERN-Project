@@ -73,14 +73,11 @@ function Header() {
             {moon}
           </Link>
           <button
-  onClick={openProfileModal}
-  className="h-[40px] w-[40px] text-zinc-400 rounded-full flex items-center justify-center text-lg border-2 border-[#bbbbbb]"
->
-  {profile}
-</button>
-
+            onClick={openProfileModal}
+            className="h-[40px] w-[40px] text-zinc-400 rounded-full flex items-center justify-center text-lg border-2 border-[#bbbbbb]"
+          >
             {profile}
-          </button>
+          </button>    
         </div>
       </div>
     </header>
