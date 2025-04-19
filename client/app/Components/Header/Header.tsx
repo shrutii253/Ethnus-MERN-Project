@@ -20,9 +20,8 @@ function Header() {
     <header className="px-6 my-4 w-full flex items-center justify-between bg-[#000000]">
       <div>
         <h1 className="text-lg font-extrabold text-zinc-400">
-          <span role="img" aria-label="wave" >
-            
-          </span>
+          <span role="img" aria-label="wave">👋</span>
+
           {userId ? `Hello, ${name}!` : "Welcome to Taskito!"}
         </h1>
         <p className="text-sm text-zinc-400">
